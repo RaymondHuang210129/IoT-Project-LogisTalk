@@ -1,0 +1,3 @@
+[submodule "IoT_Frontend_Web"]
+	path = IoT_Frontend_Web
+	url = https://github.com/Holychung/IoT_Project

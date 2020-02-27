@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SSE</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script>
+      var source = new EventSource('/SSE');
+      source.onmessage = function(e) {
+        document.getElementById("demo").innerHTML += e.data + '<br>';
+      };
+  </script>
+  </head>
+  <body>
+    <h1>dynamically pull</h1>
+    <h2 id='demo'></h2>
+  </body>
+</html>
