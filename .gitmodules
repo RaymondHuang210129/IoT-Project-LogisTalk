@@ -1,3 +1,6 @@
 [submodule "IoT_Frontend_Web"]
 	path = IoT_Frontend_Web
 	url = https://github.com/Holychung/IoT_Project
+[submodule "IoT_Backend_Server"]
+	path = IoT_Backend_Server
+	url = https://github.com/ShihMJ/IoT_Backend_Server
